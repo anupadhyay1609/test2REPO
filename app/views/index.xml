@@ -1,0 +1,31 @@
+<Alloy>
+	<Window class="container">
+		<View layout="vertical" height="Ti.UI.SIZE">
+			<View class="view">
+				<Label id="label" width=450 class="componentWidth leftAlign">By entering my name below, \nI am electronically signing.</Label>
+				<ImageView  image="/images/ic_check.png" class="authorizationCheckmark" platform="android"></ImageView>
+			</View>
+			<View class="view">
+				<Label id="labelMarty" class="componentWidth top10 leftAlign">Marty</Label>
+				<Label id="labelA" class="top10 leftAlign">A</Label>
+			</View>
+			<View class="view top10">
+				<TextField id="textFieldMarty" class="componentWidth bordColor"/>
+				<TextField id="textFieldA" class="bordColor"/>
+			</View>
+			<View class="view top10">
+				<Label id="labelMcTownly" class="componentWidth leftAlign" >McTownly</Label>
+				<Label id="labelSuffix" class="leftAlign">Suffix</Label>
+			</View>
+			<View  class="view top10">
+				<TextField id="textFieldMcTownly" class="componentWidth bordColor"  />
+				<TextField id="textFieldSuffix" class="bordColor" />
+			</View>
+			<View class="view top20">
+				<Button id="btnConsent"  class="bordColor"/>
+				<Label id="labelRadioButton">Consented by Phone</Label>
+			</View>
+			<Label id="lblSubmit">Submit Application</Label>
+		</View>
+	</Window>
+</Alloy>
